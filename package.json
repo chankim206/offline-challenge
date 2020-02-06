@@ -1,0 +1,23 @@
+{
+  "name": "offline-challenge",
+  "version": "1.0.0",
+  "description": "offline take home",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Young-Chan Kim",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,52 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.summary > h2 {
+  margin-bottom: 0;
+}
+
+.money {
+  font-size: 1.5rem;
+  color: #27ae60;
+  margin: 0;
+  font-weight: bold;
+}
+
+.avail {
+  color: #007bff;
+}
+
+.error-message {
+  color: #fff;
+}
+
+.not-avail {
+  color: #ff0505;
+}
+
+.feature-container {
+  display: inline-block;
+  margin: 0.6rem;
+}
+
+.feature-grid {
+  display: grid;
+  margin: 0 1rem 0 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.feature-name {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
